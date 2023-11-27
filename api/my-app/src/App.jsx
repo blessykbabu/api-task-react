@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
+import './axios.css'
 import AxiosComponent from './component/axios'
 import Frm from './component/frm'
+import Form from './component/FormComponent'
+
 
 
 function App() {
@@ -11,8 +14,9 @@ function App() {
 
   return (
     <>
-    {/* <AxiosComponent/>  */}
-    <Frm/>
+     {/* <AxiosComponent/>   */}
+     {/* <Frm/>  */}
+     <Form/>
      </>
   )
   }

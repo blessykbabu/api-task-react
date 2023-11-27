@@ -28,7 +28,8 @@ export default function Frm () {
       address:state.address
     };
     axios.post(`https://65643fb7ceac41c0761db682.mockapi.io/api/userdata`, userData).then((response) => {
-      console.log(response.status, response.data);
+      
+    console.log(response.status, response.data);
     });
   };
 
